@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wght@200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap");
+* {
+  text-decoration: none;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans Malayalam", sans-serif;
+}
+.allignments {
+  display: flex;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ContentSection {
+  width: 75%;
+  margin-top: 25px;
+}
+.Dateandshare {
+  width: 95%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsContainer {
+  margin-top: "50px";
+  display: flex;
+  justify-content: center;
+}
+.breadcums {
+  border-bottom: 1px solid rgb(108, 107, 107);
+  margin-bottom: 20px;
+  // margin-top: 20px;
+}
+.breadcums2 {
+  border-left: 1px solid rgb(108, 107, 107);
+  margin-bottom: 20px;
+}
+.breadcumsBold {
+  border-bottom: 2px solid rgb(108, 107, 107);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.gatsby-image-wrapper {
+  border-radius: 5px;
+}
+.iconPair {
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+  .editButton{
+    width: 100%;
+    text-align: end;
+    padding: 3%;
+  }
+@media screen and (max-width: "991px") {
+  .breadcums2 {
+    border-left: 0px solid rgb(108, 107, 107);
+  }
+  .Categories {
+    display: none;
+  }
+  .weatherIcon {
+    display: none;
+  }
+  .ContentSection {
+    width: 90%;
+  }
+}
+@media screen and (min-width: "320px") and (max-width: "991px") {
+  .SocialMedia {
+    display: none;
+}
+} 

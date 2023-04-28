@@ -1,0 +1,95 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\anshab\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gatsby-plugin-apollo @apollo/client graphql
+
+PATH: 
+  C:\Program Files\Microsoft\jdk-11.0.18.10-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\10\bin;C:\ProgramData\chocolatey\bin;C:\Users\anshab\AppData\Local\Android\Sdk\platform-tools;C:\Users\anshab\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\anshab\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\anshab\AppData\Local\Programs\Python\Python310\;C:\Users\anshab\AppData\Local\Microsoft\WindowsApps;C:\Users\anshab\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\anshab\AppData\Local\Android\Sdk\platform-tools;C:\Users\anshab\AppData\Roaming\npm;C:\Users\anshab\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\JetBrains\PyCharm 2023.1\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.1\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@ant-design/icons/-/icons-5.0.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\anshab\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:848:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:570:8)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7)
+
+npm manifest: 
+  {
+    "name": "suprabhaatham",
+    "version": "1.0.0",
+    "private": true,
+    "description": "suprabhaatham",
+    "author": "anshab",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean",
+      "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.10.6",
+      "@emotion/styled": "^11.10.6",
+      "@mui/material": "^5.11.16",
+      "antd": "^5.4.0",
+      "axios": "^1.3.5",
+      "bootstrap": "^5.2.3",
+      "gatsby": "^5.8.1",
+      "gatsby-image": "^3.11.0",
+      "gatsby-plugin-antd": "^2.2.0",
+      "gatsby-plugin-google-fonts": "^1.0.1",
+      "gatsby-plugin-image": "^3.8.0",
+      "gatsby-plugin-less": "^7.8.0",
+      "gatsby-plugin-manifest": "^5.8.0",
+      "gatsby-plugin-material-ui": "^4.0.2",
+      "gatsby-plugin-purgecss": "^6.2.1",
+      "gatsby-plugin-react-helmet": "^6.8.0",
+      "gatsby-plugin-react-svg": "^3.3.0",
+      "gatsby-plugin-sass": "^6.8.0",
+      "gatsby-plugin-sharp": "^5.8.1",
+      "gatsby-plugin-sitemap": "^6.8.0",
+      "gatsby-source-filesystem": "^5.8.0",
+      "gatsby-transformer-sharp": "^5.8.0",
+      "moment": "^2.29.4",
+      "react": "^18.2.0",
+      "react-bootstrap": "^2.7.2",
+      "react-dom": "^18.2.0",
+      "react-helmet": "^6.1.0",
+      "react-icons": "^4.8.0",
+      "react-material-ui-carousel": "^3.4.2",
+      "react-responsive-carousel": "^3.2.23",
+      "react-slick": "^0.29.0",
+      "sass": "^1.60.0",
+      "swiper": "^9.2.0"
+    },
+    "devDependencies": {
+      "@types/node": "^18.15.11",
+      "@types/react": "^18.0.31",
+      "@types/react-dom": "^18.0.11",
+      "@types/react-helmet": "^6.1.6",
+      "@types/react-slick": "^0.23.10",
+      "typescript": "^5.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
